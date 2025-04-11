@@ -179,6 +179,22 @@ textarea.form-control {
     animation: fadeIn 1s ease-in-out;
 }
 
+.card-img-top {
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+    object-fit: contain;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@media (max-width: 567px) {
+    .card-img-top {
+        max-width: 200px;
+    }
+}
+
 /* ========== LIST ITEMS ========== */
 ul li {
     color: #4a0e2b;
