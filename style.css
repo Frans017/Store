@@ -1,0 +1,185 @@
+/* ========== GLOBAL STYLES ========== */
+body {
+    background-color: #ffe4e1; /* Light pink background */
+    font-family: Arial, sans-serif;
+    color: #4a0e2b;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #4a0e2b;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+p {
+    color: #4a0e2b;
+    text-align: center;
+}
+
+a {
+    color: #4a0e2b;
+    text-decoration: none;
+}
+
+/* ========== NAVIGATION BAR ========== */
+.custom-navbar {
+    background-color: #f8c8dc !important;
+}
+
+.navbar-brand, 
+.nav-link {
+    color: #4a0e2b !important;
+}
+
+.nav-link:hover {
+    color: #843777 !important;
+}
+
+.img {
+    width: 30px;
+    height: auto;
+}
+
+/* ========== HERO/HEADER SECTION ========== */
+.round-img {
+    border-radius: 15px;
+}
+
+.img-fluid {
+    display: block;
+    margin: 2rem auto;
+    max-width: 80%;
+    height: auto;
+}
+
+/* ========== CONTENT SECTIONS ========== */
+.custom-heading {
+    color: #4a0e2b;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.custom-heading2 {
+    color: #4a0e2b;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+  
+.custom-paragraph {
+    color: #4a0e2b;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 5rem;
+}
+
+/* ========== PRODUCT TABLE ========== */
+.table {
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 0;
+    padding: 0;
+}
+
+.table th {
+    background-color: #f8c8dc;
+    color: #4a0e2b;
+    text-align: center;
+    padding: 15px;
+}
+
+.table td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 15px;
+}
+
+/* ========== PRODUCT IMAGES ========== */
+.product-img {
+    max-width: 100px;
+    max-height: 100px;
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-img:hover {
+    transform: scale(1.1);
+}
+
+/* ========== BUTTONS ========== */
+.btn-primary {
+    background-color: #d96c94;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #b05276;
+}
+
+/* ========== ABOUT/CONTACT BOXES ========== */
+.about-box,
+.contact-box {
+    border: 2px solid #f8c6d8;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: #fff0f5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+/* ========== SPECIAL IMAGE CLASSES ========== */
+.img-about {
+    width: 60px;
+    height: auto;
+}
+
+.img-mission {
+    width: 55px;
+    height: auto;
+}
+
+.img-values {
+    width: 58px;
+    height: auto;
+}
+
+.rounded-img {
+    border-radius: 40px;
+}
+
+/* ========== FORM ELEMENTS ========== */
+label.form-label {
+    color: #4a0e2b;
+}
+
+input.form-control, 
+textarea.form-control {
+    color: #4a0e2b;
+    border-color: #4a0e2b;
+}
+
+/* ========== CARD ELEMENTS ========== */
+.card-title {
+    text-align: center;
+    color: #4a0e2b;
+}
+
+.card-img-top {
+    max-width: 100%;
+    height: auto;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* ========== LIST ITEMS ========== */
+ul li {
+    color: #4a0e2b;
+}
